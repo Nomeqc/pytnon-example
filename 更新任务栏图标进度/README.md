@@ -24,3 +24,6 @@ from comtypes.client import GetModule
 GetModule(os.path.join(sys.path[0], 'lib/tl.tlb'))
 ```
 之后运行还会报错一次，再次运行发现不报错了。
+
+## 参考：
+- [ImportError: Typelib different than module · Issue #231 · enthought/comtypes](https://github.com/enthought/comtypes/issues/231#issuecomment-841767788)
